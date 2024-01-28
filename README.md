@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XbartoxWeb</title>
+    <style>
+        /* Styles pour le corps de la page */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://wallpapercave.com/wp/wp238833.jpg'); /* Image de fond */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Styles pour le texte de bienvenue */
+        #welcome-text {
+            font-size: 48px;
+            font-weight: bold;
+            margin-top: 80px; /* Ajusté pour le positionnement */
+            color: white;
+            text-shadow: 2px 2px 4px black; /* Ombre pour améliorer la visibilité sur le fond */
+        }
+
+        /* Styles pour le texte "Réseaux sociaux de Xbarte:" */
+        #social-text {
+            font-size: 26px; /* Ajusté pour la taille */
+            margin-top: 30px; /* Ajusté pour le positionnement */
+            text-shadow: 2px 2px 4px black; /* Ombre noire */
+        }
+
+        /* Styles pour les liens interactifs */
+        .links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .link-item {
+            display: block;
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .link-item:hover {
+            background-color: white;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Texte de bienvenue -->
+    <div id="welcome-text">Bienvenue sur Xbartox !</div>
+
+    <!-- Texte "Réseaux sociaux de Xbarte:" juste au-dessus de "Chaîne YouTube" -->
+    <div id="social-text">Réseaux sociaux de Xbarte:</div>
+
+    <!-- Liens interactifs -->
+    <div class="links">
+        <a class="link-item" href="https://youtube.com//@Xbarte" target="_blank">Chaîne YouTube</a>
+        <a class="link-item" href="https://discord.gg/a4h4wkp9eJ" target="_blank">Serveur Discord</a>
+        <a class="link-item" href="https://twitter.com/Xbarte4837" target="_blank">Compte Twitter</a>
+        <a class="link-item" href="https://www.roblox.com/users/4045482740/profile" target="_blank">Profil Roblox</a>
+        <a class="link-item" href="https://www.twitch.tv/xbarte4837" target="_blank">Chaîne Twitch</a>
+    </div>
+
+</body>
+</html>
